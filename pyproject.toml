@@ -1,0 +1,9 @@
+[project]
+name = "x-video-downloader"
+version = "1.1.1"
+description = "Windows desktop X/Twitter video downloader"
+requires-python = ">=3.13,<3.14"
+dependencies = ["yt-dlp[default]", "imageio-ffmpeg"]
+
+[dependency-groups]
+dev = ["pyinstaller", "pillow"]
